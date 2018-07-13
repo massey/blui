@@ -1,0 +1,32 @@
+.dropdown {
+  &.inline {
+    display: inline;
+    position: relative;
+  }
+}
+
+.dropdown-panel {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+  display: none;
+  top: 2rem;
+  z-index: 10;
+
+  &.show {
+    display: block;
+    position: absolute;
+  }
+
+  .item {
+    align-items: center;
+    cursor: default;
+    display: flex;
+    min-height: 3rem;
+    padding: 0 1rem;
+
+    &:hover {
+      background-color: #eeeeee;
+    }
+  }
+}
