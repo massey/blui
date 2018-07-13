@@ -1,5 +1,5 @@
-import componentMixin from '@/mixins/component'
-import clickoutMixin from '@/mixins/clickout'
+import componentMixin from '../../mixins/component'
+import clickoutMixin from '../../mixins/clickout'
 
 export default {
   name: 'dropdown',
