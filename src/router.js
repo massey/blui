@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Dropdown from './views/dropdown'
+import Icon from './views/icon'
 import Input from './views/input'
 import Select from './views/select'
 
@@ -13,6 +14,11 @@ export default new Router({
       path: '/dropdown',
       name: 'dropdown',
       component: Dropdown
+    },
+    {
+      path: '/icon',
+      name: 'icon',
+      component: Icon
     },
     {
       path: '/input',

@@ -3,6 +3,7 @@
     <div>
       <ul>
         <router-link :to="{ name: 'dropdown' }" tag="li"><a>Dropdown</a></router-link>
+        <router-link :to="{ name: 'icon' }" tag="li"><a>Icon</a></router-link>
         <router-link :to="{ name: 'input' }" tag="li"><a>Input</a></router-link>
         <router-link :to="{ name: 'select' }" tag="li"><a>Select</a></router-link>
       </ul>
